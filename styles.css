@@ -1,0 +1,183 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.cover-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.intro-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.712),
+      rgba(0, 0, 0, 0.815)
+    ),
+    url(https://picsum.photos/id/222/1600/900) no-repeat center center/cover;
+}
+
+.intro-content {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 90%;
+  color: #666;
+  margin: 0 auto;
+}
+
+.intro-content h1 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.intro-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #666;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  color: #fff;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Features Section */
+#features {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.feature {
+  margin: 20px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.feature img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* About Section */
+#about {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#about ul {
+  list-style: none;
+  padding: 0;
+}
+
+#about ul li {
+  margin: 10px 0;
+}
+
+#about ul li a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+#about ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
